@@ -3,32 +3,63 @@
   margin: 0;
 }
 
-body {
-  margin: 5vh;
-  padding: 0;
-  height: 90vh;
+.container {
+  width: 320px;
+  height: 300px;
+  margin: 2em;
+  font-size: 1em;
+  border: 0.1px grey solid;
 }
 
-#root {
-  margin: 0;
-  padding: 0;
-}
-
-.header-container {
+.display {
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15vh;
+  background-color: grey;
+  color: white;
+  padding: 0.5em;
+  height: 15%;
 }
 
-nav {
+.operators-container {
   display: flex;
-  gap: 10px;
+  height: 80%;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
+.grey-btn {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  height: 100%;
+}
+
+.grey-btn button {
+  flex: 1 1 33.333%;
+  background-color: lightgray;
+  border: 0.1px solid grey;
+  font-size: 0.7em;
+}
+
+.orange-btn {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.orange-btn button {
+  flex: 1 1 0%;
+  background-color: orange;
+  border-top: 0.1px white solid;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  font-size: 0.7em;
+}
+
+#cero {
+  flex: 2 0 66.666%;
+}
+
+button:active {
+  background-color: grey;
 }
