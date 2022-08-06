@@ -1,54 +1,71 @@
-#  MAth Magicians
-This is a  microverse project aimed at grasping JAVASCRIPTS wtih html
- css  js and react by building the Math magicians app. 
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Built With
-HTML
-CSS
-JAVASCRIPT
-React
+# Math-magicians
 
-# Getting Started
-This is a  microverse project aimed grasping the fundamentals of reaact
+> Hello!
+Math-magicians is a simple calculator app created with React. Re-creating this website you will see how to give some functionality to your sections and make your website more user-interactive.
+
+
+## Built With
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Webpack
+- Linters
+- Jest
 
 ## Getting Started
-To get a local copy up and running, follow the steps in Setup below.
 
-### Prerequisites
-Basic knowledge of HTML, CSS. javascript
+Setting up this project locally:
+#### On your terminal:
+- Clone this repository to your computer: git clone git@github.com:emiliazm/math-magicians.git.
+- Open the project on your code editor: "cd math-magicians" and "code ."
+- Install npm package: npm install.
+- Run website: npm run start.
 
-### Setup
-If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.
 
-- Once the files are on your machine, open the _Portfolio_ folder in [Visual Studio Code](https://code.visualstudio.com/).
+## Live Demo (if available)
 
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-### Install
+## Prerequisites
 
-The following tools help make easier to work with sample code.
+In the previous project, you worked on the setup of a React application using Create React App (CRA), now you should:
 
-- [git](https://git-scm.com/downloads): A tool for managing source code
-- [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
+- Delete all the boilerplate from CRA (text, images, styles).
+- Create a directory called components.
+- Inside components, create a new Calculator.js file.
+- In Calculator.js, create a React component that matches this design:
+- Don't add any extra design.
+- Develop just the UI of the calculator; the math logic to make it work will be added in the next project.
+- Use class based components (All components should be class-based).
+- Once the Calculator is ready, import it and use it in your main component (App.js).
+- Test it in the browser; it should render without problems.
 
-# Authors
-Amk lass
 
-GitHub:[@amklass11](https://github.com/amklass11)
-LinkedIn:[@AmkLAss](https://www.linkedin.com/in/amk-lass-521565196/)
+## Authors
 
-# 🤝 Contributing
+👤 **Emilia Zambrano**
+
+- GitHub: [@emiliazm](https://github.com/emiliazm)
+- Twitter: [@emilia_zm](https://twitter.com/emilia_zm)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/emilia-zambrano-montero-aa30a611b/)
+
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/emiliazm/math-magicians/issues).
 
-# Show your support
-Give a ⭐️ if you like this project! and cheers✨
+## Show your support
 
- # Acknowledgments
-Microverse offered guidance on how to make the project more professional
+Give a ⭐️ if you like this project!
 
+## Acknowledgments
 
-# 📝 License
+- Microverse README template.
+
+## 📝 License
+
 This project is [MIT](./MIT.md) licensed.
