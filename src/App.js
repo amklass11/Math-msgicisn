@@ -17,7 +17,7 @@ class App extends React.Component {
     return (
       <Router>
         <div className="header-container">
-          <h1>Math Magician</h1>
+          <h1>Math Magiscian</h1>
           <nav>
             <Link to="/">Home</Link>
             <span> | </span>
